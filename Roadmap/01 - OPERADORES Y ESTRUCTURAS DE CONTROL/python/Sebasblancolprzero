@@ -1,0 +1,82 @@
+Crea ejemplos utilizando todos los tipos de operadores de tu lenguaje:
+ *   Aritméticos, lógicos, de comparación, asignación, identidad, pertenencia, bits...
+ *   (Ten en cuenta que cada lenguaje puede poseer unos diferentes)
+ - Utilizando las operaciones con operadores que tú quieras, crea ejemplos
+ *   que representen todos los tipos de estructuras de control que existan
+ *   en tu lenguaje:
+ *   Condicionales, iterativas, excepciones...
+ * - Debes hacer print por consola del resultado de todos los ejemplos.
+ *
+ * DIFICULTAD EXTRA (opcional):
+ * Crea un programa que imprima por consola todos los números comprendidos
+ * entre 10 y 55 (incluidos), pares, y que no son ni el 16 ni múltiplos de 3.
+ *
+ * Seguro que al revisar detenidamente las posibilidades has descubierto algo nuevo.
+ */
+
+ ARITMÉTICOS
+
+a = 10
+b = 3
+suma = a + b            # 13
+resta = a - b           # 7
+multiplicacion = a * b  # 30
+division = a / b        # 3.3333...
+modulo = a % b          # 1
+potencia = a ** b       # 1000
+division_entera = a // b  # 3
+
+COMPARACIÓN
+
+a = 10
+b = 3
+
+igual = a == b          # False
+diferente = a != b      # True
+mayor_que = a > b       # True
+menor_que = a < b       # False
+mayor_igual = a >= b    # True
+menor_igual = a <= b    # False
+
+LÓGICOS
+
+verdadero = True
+falso = False
+
+y = verdadero and falso       # False
+o = verdadero or falso        # True
+no = not verdadero            # False
+
+ASIGNACIÓN
+
+a = 10
+
+a += 5    # a = 15
+a -= 3    # a = 12
+a *= 2    # a = 24
+a /= 4    # a = 6
+a %= 3    # a = 0
+a **= 3   # a = 0
+a //= 2   # a = 0
+
+PERTENENCIA
+
+lista = [1, 2, 3, 4, 5]
+
+pertenece = 3 in lista        # True
+no_pertenece = 6 not in lista # True
+
+
+BIT
+
+AND (&)
+
+OR (|)
+
+XOR (^)
+
+NOT (~)
+
+Desplazamiento a la Izquierda (<<)
+
+Desplazamiento a la Derecha (>>)
