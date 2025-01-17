@@ -80,3 +80,76 @@ NOT (~)
 Desplazamiento a la Izquierda (<<)
 
 Desplazamiento a la Derecha (>>)
+
+ESTRUCTURAS CONDICIONALES
+
+a = 10
+b = 20
+
+# Condicional if-elif-else con operadores de comparación y lógicos
+if a < b and a != 0:
+    print("a es menor que b y no es cero")
+elif a == b:
+    print("a es igual a b")
+else:
+    print("a es mayor que b o a es cero")
+
+ITERATIVAS
+
+n = 5
+
+while n > 0:
+    print(f"n es {n}")
+    n -= 1  # Operador de asignación
+
+BUCLE FOR
+
+# Recorriendo una lista con un bucle for
+lista = [1, 2, 3, 4, 5]
+suma = 0
+
+for numero in lista:
+    suma += numero  # Operador de asignación
+    print(f"Suma parcial: {suma}")
+
+print(f"Suma total: {suma}")
+
+MANEJO DE EXCEPCIONES
+try:
+    a = 10
+    b = 0
+    resultado = a / b  # Esto genera una excepción de división por cero
+except ZeroDivisionError:
+    print("Error: No se puede dividir por cero")
+else:
+    print(f"Resultado: {resultado}")
+finally:
+    print("Bloque finally ejecutado")
+
+OPERADORES A BITS
+
+x = 6  # 0110 en binario
+y = 3  # 0011 en binario
+
+# Condicional if con operador a nivel de bits
+if x & y:
+    print("Algunos bits son iguales en x e y")
+else:
+    print("Ningún bit es igual en x e y")
+
+# Bucle for con desplazamiento a la izquierda
+for i in range(3):
+    x <<= 1  # Operador de desplazamiento a la izquierda
+    print(f"x desplazado a la izquierda: {x}")
+
+CONDICIONAL Y BUCLE COMBINADO
+# Lista de números
+numeros = [1, 2, 3, 4, 5]
+
+# Bucle for con condicional if y operador de pertenencia
+for numero in numeros:
+    if numero % 2 == 0:  # Operador aritmético y de comparación
+        print(f"{numero} es par")
+    else:
+        print(f"{numero} es impar")
+
